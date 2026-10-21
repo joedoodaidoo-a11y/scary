@@ -28,6 +28,7 @@ jobs:
         with:
           combine: true
           target: ${{ matrix.config.target }}
+          sdk: stable
 
   package:
     name: Package builds
